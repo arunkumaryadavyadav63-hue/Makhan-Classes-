@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Makhan Classes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand">Makhan Classes 📚</div>
+  <div class="tag">Classes 1st to 8th • Learn Today, Build Tomorrow</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>Bright Students<br><span>Bright Future</span></h1>
+      <p>Class 1 से 8 तक ऑनलाइन पढ़ाई</p>
+      <button onclick="document.getElementById('classes').scrollIntoView()">अपनी Class चुनें</button>
+    </div>
+    <div class="hero-card">🎓<br><b>Video Classes</b><br><small>Easy Explanation</small></div>
+  </section>
+
+  <h2 id="classes">अपनी Class चुनें</h2>
+  <div class="classes" id="classButtons"></div>
+
+  <h2>Learning Features</h2>
+  <div class="features">
+    <div>▶️<b>Video Classes</b><small>Concept clear with easy explanation</small></div>
+    <div>📖<b>Notes / Study Material</b><small>Chapter-wise notes</small></div>
+    <div>📝<b>Online Test</b><small>Practice and test yourself</small></div>
+    <div>📊<b>Test Result</b><small>Know your progress</small></div>
+    <div>🔔<b>Important Notifications</b><small>Stay updated</small></div>
+    <div>👨‍🏫<b>Teacher Support</b><small>Ask Doubt Anytime</small></div>
+  </div>
+
+  <section id="content" class="content hidden"></section>
+
+  <section class="admin">
+    <h2>🔐 Admin Panel (Demo)</h2>
+    <p>यहाँ से आप YouTube वीडियो लिंक जोड़ सकते हैं।</p>
+    <input id="title" placeholder="Video का नाम">
+    <select id="adminClass"></select>
+    <select id="subject">
+      <option>Maths</option><option>Hindi</option><option>English</option>
+      <option>EVS</option><option>Science</option><option>Social Science</option>
+    </select>
+    <input id="video" placeholder="YouTube video link">
+    <button onclick="addVideo()">Video Publish करें</button>
+    <p id="msg"></p>
+  </section>
+</main>
+
+<footer>© Makhan Classes • Class 1 to 8</footer>
+<script src="app.js"></script>
+</body>
+</html>
