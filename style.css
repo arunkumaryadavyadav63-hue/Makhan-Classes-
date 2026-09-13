@@ -1,0 +1,17 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f6f8fb;color:#172033}
+header{background:linear-gradient(135deg,#1265d8,#168fe8);color:white;padding:28px 7%;border-radius:0 0 28px 28px}
+.brand{font-size:32px;font-weight:800}.tag{font-size:16px;margin-top:8px}
+main{max-width:1000px;margin:auto;padding:22px 5%}
+.hero{background:white;border-radius:24px;padding:28px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 6px 25px #00000012}
+.hero h1{font-size:34px;margin:0}.hero h1 span{color:#1676dd}.hero p{font-size:18px}
+button{border:0;border-radius:12px;background:#176fe0;color:#fff;padding:13px 20px;font-weight:700;cursor:pointer}
+.hero-card{width:170px;height:170px;border-radius:24px;background:#eaf4ff;display:grid;place-content:center;text-align:center;font-size:38px;color:#1265d8}
+.hero-card b{font-size:17px}.hero-card small{font-size:12px;color:#555}
+h2{margin-top:32px}.classes{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.classes button{background:white;color:#222;border:1px solid #e2e7ef}
+.classes button:hover{background:#eaf4ff}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.features div{background:white;border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:7px;box-shadow:0 3px 15px #00000009;font-size:28px}.features b{font-size:16px}.features small{font-size:13px;color:#667085}
+.content{margin-top:25px;background:white;border-radius:20px;padding:22px}.video{padding:14px;border:1px solid #e4e8ef;border-radius:14px;margin:10px 0}.video a{display:inline-block;margin-top:8px}
+.admin{margin-top:35px;background:#fff;border-radius:20px;padding:22px;border:2px dashed #b8c9e5}.admin input,.admin select{width:100%;padding:12px;margin:7px 0;border:1px solid #d6dce6;border-radius:10px}
+#msg{font-weight:700;color:#16703a}.hidden{display:none}
+footer{text-align:center;padding:30px;color:#667085}
+@media(max-width:700px){.brand{font-size:25px}.hero{flex-direction:column;align-items:flex-start}.hero-card{width:100%;height:120px}.classes{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:1fr}}
